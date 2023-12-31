@@ -20,7 +20,7 @@ const HomeHeader = () => {
 
   return (
     <>
-      <Typography.Title level={1} mark className={Style.appTitle}>
+      <Typography.Title level={1} className={Style.appTitle}>
         TanStack -React Query.
       </Typography.Title>
       <Typography.Paragraph
@@ -34,7 +34,7 @@ const HomeHeader = () => {
         {descContent}
       </Typography.Paragraph>
       <Button
-        type="link"
+        type="text"
         size="middle"
         onClick={rows <= 2 ? handleDescRowsMaxsimize : handleDescRowsMinimize}
         className={Style.headerButton}
