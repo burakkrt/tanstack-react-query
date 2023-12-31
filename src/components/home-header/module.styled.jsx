@@ -3,11 +3,6 @@ import { css } from "@emotion/css";
 export const appTitle = css`
   margin-top: 1rem !important;
   margin: 0 auto;
-  padding: 0.5rem 1rem;
-  border-radius: 0.5rem;
-  color: #3d3b40 !important;
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
-  background-color: #f5f7f8;
 `;
 
 export const appTitleDesc = css`

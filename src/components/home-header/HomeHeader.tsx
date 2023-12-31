@@ -8,11 +8,9 @@ const HomeHeader = () => {
 
   const handleDescRowsMinimize = () => {
     setRows(2);
-    console.log(rows);
   };
   const handleDescRowsMaxsimize = () => {
     setRows(10);
-    console.log(rows);
   };
 
   const descContent =
