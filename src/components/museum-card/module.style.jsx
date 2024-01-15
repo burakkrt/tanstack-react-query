@@ -2,7 +2,7 @@ import { css } from "@emotion/css";
 
 export const card = css`
   margin: 8px 0;
-  background-color: white !important;
+  background-color: #F9EFDB !important;
 `;
 
 export const moreButton = css`
