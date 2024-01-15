@@ -12,7 +12,6 @@ const MuseumCard: React.FC<IRootParams> = ({ data }) => {
     <Card
       className={Style.card}
       title={data?.muzeAd}
-      hoverable
       extra={data?.sehir}
     >
       <Typography.Paragraph
